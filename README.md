@@ -24,7 +24,7 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 Fetching Recipes from Edamam API
 This project fetches recipes from the Edamam Recipe Search API. You'll need to obtain your API keys from the Edamam developer portal.
 
-Add .env file to the project root directory.
+Add  .env file to the project root directory.
 
 Open .env and replace REACT_APP_API_ID and REACT_APP_API_KEY with your API credentials.
 
