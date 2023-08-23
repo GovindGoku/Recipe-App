@@ -21,7 +21,7 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
    ```bash
    npm install
    ```
-Fetching Recipes from Edamam API
+4. Fetching Recipes from Edamam API
 This project fetches recipes from the Edamam Recipe Search API. You'll need to obtain your API keys from the Edamam developer portal.
 
 Add  .env file to the project root directory.
