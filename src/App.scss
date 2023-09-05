@@ -1,6 +1,7 @@
 @import './media.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rokkitt:wght@700&display=swap');
 
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f2f2f2;
@@ -80,7 +81,7 @@ p {
 }
 
 .recipeHeading {
-  color:#6fcb9f;
+  color:#fca709;
   text-align: center;
   font-size: 45px;
   margin-bottom: 70px;
@@ -125,7 +126,8 @@ p {
     }
 
     &.active {
-      background-color: #6fcb9f;
+      /*background-color: #6fcb9f;*/
+      background-color: #fca709;
 
       svg {
         color: #fff;
@@ -137,13 +139,13 @@ p {
       &::after {
         position: absolute;
         content: '';
-        border-top: 15px solid #6fcb9f;
+        border-top: 15px solid #fca709;
         border-left:10px solid transparent;
         border-right: 10px solid transparent;
         bottom: -15px;
         
         @include medium {
-          border-top: 20px solid #6fcb9f;
+          border-top: 20px solid #fca709;
           border-left:15px solid transparent;
           border-right: 15px solid transparent;
           bottom: -20px;
@@ -169,7 +171,7 @@ p {
       width: 50%;
     }
     .badge {
-      background-color: #6fcb9f;
+      background-color: #fca709;
       padding: 5px;
       border-radius: 3px;
       margin-bottom: 10px;
@@ -261,7 +263,7 @@ p {
   font-size: 35px;
   text-align: center;
   margin-bottom: 50px;
-  color: #6fcb9f;
+  color: #fca709;
   
   @include medium {
     font-size: 45px;
@@ -279,14 +281,14 @@ p {
       height: 45px;
       outline: none;
       border-radius: 8px 0 0 8px;
-      border: 1px solid #6fcb9f;
+      border: 1px solid #fca709;
       font-size: 20px;
       padding:  5px 15px;
 
       
     }
     button {
-      background-color: #6fcb9f;
+      background-color: #fca709;
       outline: none;
       color:#fff;
       display: flex;
@@ -351,7 +353,7 @@ p {
 
   .spinner {
     border: 8px solid #f3f3f3;
-    border-top: 8px solid #6fcb9f;
+    border-top: 8px solid #fdfd14;
     width: 60px;
     height: 60px;
     border-radius: 100%;
